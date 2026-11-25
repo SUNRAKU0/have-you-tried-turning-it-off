@@ -4,6 +4,7 @@ import { mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
 const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
+// The agent's best fix is the one that buys everyone a quiet minute.
 const line = 'Have you tried turning it off and on again? It has never worked, but it buys me a lovely minute of silence.';
 
 mkdirSync(outDir, { recursive: true });
